@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette carbonara</title>
+</head>
+<body>
+
+    <h1>Une putain de recette de carbo</h1>
+
+    <p>
+
+    <script>
+        const ingredients = ["Pâtes", "Oeuf", "Sel", "Poivre","Lardon","Oignon","Parmesan"];
+        ingredients.sort();
+        document.write("Vous aurez besoin de " + ingredients.length + " ingrédients :<br/>")
+
+        for (i = 0; i < ingredients.length; i++) {
+            document.write("<br>" + (i + 1) +". " + ingredients[i]);
+    
+        }
+    </script>
+
+    </p>
+    
+</body>
+</html>
